@@ -6,7 +6,7 @@ const Header = () => {
   const[changeRealDemo,setChangeRealDemo] = useState()
 
   return (
-    <header className="w-full fixed z-10">
+    <header >
       <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4  bg-transparent">
         <div>
           <span>DTrader</span>
