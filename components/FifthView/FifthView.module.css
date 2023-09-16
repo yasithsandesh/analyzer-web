@@ -1,0 +1,9 @@
+.fifthViewInput{
+    color: black;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    background-color: #cce5ff;
+    border-radius: 5px;
+    padding: 9px;
+}

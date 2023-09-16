@@ -1,0 +1,35 @@
+.tradeViewInput{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    background-color: #cce5ff;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.tradeViewInput2{
+    width: 140px;
+    height: 40px;
+    outline: none;
+    background-color: #cce5ff;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.matchesBtn{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: #1d887b;
+    border-radius: 10px;
+}
+
+.differsBtn{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: #007FFF;
+    border-radius: 10px;
+}

@@ -1,15 +1,19 @@
 import styles from "@/components/Header/Header.module.css";
 import { useState } from "react";
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 
 const Header = () => {
-  const [loginSucess, setLoginSucess] = useState('sucess');
+  const [loginSucess, setLoginSucess] = useState('sucss');
   const[changeRealDemo,setChangeRealDemo] = useState()
 
   return (
     <header >
       <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4  bg-transparent">
-        <div>
+        <div className=" flex flex-row items-center gap-2">
           <span>DTrader</span>
+          <div className=" cursor-pointer">
+            <DarkModeIcon/>
+          </div>
         </div>
         <div className="flex flex-row gap-4 cursor-pointer">
           <span>Analyser</span>

@@ -33,21 +33,21 @@ const ThirdViewChart = () => {
             {
                 label: 'Last Digit Statistics Percentage',
                 data: [181, 222, 194],
-                borderColor: 'rgb(53, 162, 235)',
-                backgroundColor: 'rgb(53, 162, 235, 0.4',
+                borderColor: '#5D9C59',
+                backgroundColor: '#5D9C59',
               }, 
 
               {
                 label: 'Last Digit Statistics Percentage',
                 data: [444, 222, 194],
-                borderColor: 'rgb(53, 162, 235)',
-                backgroundColor: 'rgb(53, 162, 235, 0.4',
+                borderColor:  '#e6f2ff',
+                backgroundColor: '#e6f2ff',
               }, 
               {
                 label: 'Last Digit Statistics Percentage',
                 data: [181, 222, 194],
-                borderColor: 'rgb(53, 162, 235)',
-                backgroundColor: 'rgb(53, 162, 235, 0.4',
+                borderColor: '#DF2E38',
+                backgroundColor: '#DF2E38',
               }, 
         ]
     })

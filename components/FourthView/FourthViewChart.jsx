@@ -33,15 +33,15 @@ const FourthViewChart = () => {
         {
           label: "Odd",
           data: [181],
-          borderColor: "rgb(53, 162, 235)",
-          backgroundColor: "rgb(53, 162, 235, 0.4",
+          borderColor: "#007FFF",
+          backgroundColor: "#007FFF",
         },
 
         {
           label: "Even",
           data: [444],
-          borderColor: "rgb(53, 162, 235)",
-          backgroundColor: "rgb(53, 162, 235, 0.4",
+          borderColor: "#80bfff",
+          backgroundColor: "#80bfff",
         },
         
       ],

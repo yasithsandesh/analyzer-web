@@ -1,5 +1,5 @@
 export default function TitleMain({title}){
     return(
-        <label>{title}</label>
+        <label className="main-title-dark">{title}</label>
     )
 }

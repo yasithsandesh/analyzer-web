@@ -34,7 +34,7 @@ const ChartLastDigit = () => {
                 label: 'Last Digit Statistics Percentage',
                 data: [18127, 22201, 19490, 17938, 24182, 17842, 22475,12,34,900],
                 borderColor: 'rgb(53, 162, 235)',
-                backgroundColor: 'rgb(53, 162, 235, 0.4',
+                backgroundColor: '#DF2E38',
               }, 
         ]
     })
