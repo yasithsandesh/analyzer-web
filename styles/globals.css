@@ -16,14 +16,20 @@
   }
 }
 
+:root[theme='light']{
+  --background: rgb(255, 255, 255);
+  --title-color:rgb(7, 7, 7);
+}
+
+:root[theme='dark']{
+  --background: rgb(0, 10, 23);
+  --title-color:rgb(255, 255, 255);
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: var(--background)
 }
 html {
   scroll-behavior: smooth;
@@ -51,4 +57,30 @@ html {
 .main-title-dark{
   font-size: 25px;
   font-weight: 600;
+}
+
+.header-title-c{
+  color: var(--title-color);
+  font-weight: 600;
+}
+
+.header-sm-title-c{
+  color: black;
+  font-weight: 600;
+}
+
+.sm-nav-item{
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+.nav-sm-close{
+  display: none;
+}
+
+
+
+.nav-sm-open{
+
 }
