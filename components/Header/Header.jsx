@@ -1,9 +1,10 @@
 import styles from "@/components/Header/Header.module.css";
 import { useState } from "react";
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import axios from "axios";
 
 const Header = () => {
-  const [loginSucess, setLoginSucess] = useState('sucss');
+  const [loginSucess, setLoginSucess] = useState('sucess');
   const[changeRealDemo,setChangeRealDemo] = useState()
 
   return (
@@ -35,7 +36,7 @@ const Header = () => {
               <span>Demo</span>
               <span>11111111.00 USD</span>
             </div>
-          </div>):( <><button className={styles.loginbtn}>Login</button><button className="signup-btn">Sign up</button></>)}
+          </div>):( <><button className={styles.loginbtn} >Login</button><button className="signup-btn">Sign up</button></>)}
          
        
         </div>

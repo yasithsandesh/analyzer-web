@@ -5,14 +5,14 @@ import PowerSettingsNewIcon from '@mui/icons-material/PowerSettingsNew';
 import { useState } from "react";
 import TradeView from "../TradeEnter/TradeView";
 
-const HeaderSelecter = () => {
+const HeaderSelecter = ({symbolsArray}) => {
 
   const [open, setOpen] = useState(false);
 
   return (
     <div className="flex flex-row  gap-2 md:gap-4 justify-center items-center">
       <div>
-        <SelectMarket/>
+        <SelectMarket symbolsArray={symbolsArray}/>
       </div>
 
       <div>

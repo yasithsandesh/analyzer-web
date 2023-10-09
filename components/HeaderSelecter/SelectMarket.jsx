@@ -1,10 +1,9 @@
-import * as React from 'react';
-import Select from '@mui/joy/Select';
-import Option from '@mui/joy/Option';
-import Chip from '@mui/joy/Chip';
+import * as React from "react";
+import Select from "@mui/joy/Select";
+import Option from "@mui/joy/Option";
+import Chip from "@mui/joy/Chip";
 
-
-export default function SelectDecorators() {
+export default function SelectDecorators({ symbolsArray }) {
   return (
     <Select
       placeholder="Select Market"
@@ -15,8 +14,11 @@ export default function SelectDecorators() {
       }
       sx={{ width: 240 }}
     >
-   <Option value="1">Jump 10 Index</Option>
-   <Option value="2">Jump 11 Index</Option>
+      {symbolsArray && symbolsArray.map((data, Index) => (
+        <Option key={data.allow_forward_starting} value={data.display_order}>
+          {data.display_name}
+        </Option>
+      ))}
     </Select>
   );
 }
