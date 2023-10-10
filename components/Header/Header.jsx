@@ -63,7 +63,7 @@ const navItem = "flex flex-col gap-4 box-border items-center top-10  justify-cen
           <span className="header-title-c gap-2 invisible md:visible">
             DTrader
           </span>
-          <MenuIcon className="visible md:invisible"  onClick={toggleOptionPane}/>
+          <MenuIcon className=" visible md:invisible"  onClick={toggleOptionPane}/>
           <div className=" cursor-pointer gap-2 ">
             {findTheme == "light" ? (
               <DarkModeIcon onClick={toggleMode} />
