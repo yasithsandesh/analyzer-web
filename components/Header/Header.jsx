@@ -105,7 +105,7 @@ const navItem = "flex flex-col gap-4 box-border items-center top-10  justify-cen
                 }}
               >
                 <span>Demo</span>
-                <span>11111111.00 USD</span>
+                <span>11111.00 USD</span>
               </div>
             </div>
           ) : (
